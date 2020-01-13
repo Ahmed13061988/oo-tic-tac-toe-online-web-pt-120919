@@ -15,7 +15,8 @@ WIN_COMBINATIONS = [
     puts " #{@board[3]} | #{@board[4]} | #{@board[5]} "
     puts "-----------"
   end 
-  def input_to_index 
+  def input_to_index(user_input)
+    
     
   
    
