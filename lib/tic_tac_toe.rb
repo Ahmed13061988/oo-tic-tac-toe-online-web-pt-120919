@@ -92,9 +92,9 @@ class TicTacToe
       true 
       elsif   
       if (@board[win_combo[0]]) == "X" && (@board[win_combo[1]]) == "X" && (@board[win_combo[2]]) == "X"
-      return false
+      false
      elsif (@board[win_combo[0]]) == "O" && (@board[win_combo[1]]) == "O" && (@board[win_combo[2]]) == "O"
-      return false 
+       false 
     end 
     else 
       false 
