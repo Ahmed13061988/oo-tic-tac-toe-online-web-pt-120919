@@ -57,7 +57,6 @@ class TicTacToe
   
   def won?(index)
    @board != WIN_COMBINATIONS || @board == WIN_COMBINATIONS
- end 
  WIN_COMBINATIONS
  end 
   
