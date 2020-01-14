@@ -90,7 +90,8 @@ class TicTacToe
       a != " "
     end 
       true 
-      elsif @board
+      elsif @board == WIN_COMBINATIONS 
+      false
     else 
       false 
     end 
