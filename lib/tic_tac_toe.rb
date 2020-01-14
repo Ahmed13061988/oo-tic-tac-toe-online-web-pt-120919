@@ -110,17 +110,7 @@ class TicTacToe
        puts "Congratulations! #{winner}"
        elsif draw? 
        puts "Game Over!"
-    
-        
-    
-    
-    
- 
- 
- 
- 
- 
- 
- 
- 
+     end 
+   end 
+  end 
 end 
