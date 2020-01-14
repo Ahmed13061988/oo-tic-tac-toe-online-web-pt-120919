@@ -90,6 +90,7 @@ class TicTacToe
       a != " "
     end 
       true 
+      elsif @board
     else 
       false 
     end 
