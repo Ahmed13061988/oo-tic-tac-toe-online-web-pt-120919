@@ -106,7 +106,8 @@ class TicTacToe
   def play 
     while over? == false 
      turn
-     
+     if won?
+       puts "Congragulation"
     
         
     
