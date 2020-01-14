@@ -81,7 +81,7 @@ class TicTacToe
   end
   
   def full?
-    if @board == position_taken?
+    if @board == position_taken?(index)
       true 
     else 
     false
