@@ -80,7 +80,7 @@ class TicTacToe
     end
   end
   
-  def full?(index)
+  def full?
     if @board == position_taken 
       puts full 
     else 
