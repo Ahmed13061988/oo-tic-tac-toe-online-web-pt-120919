@@ -56,7 +56,7 @@ class TicTacToe
   end 
   
   def turn 
-    puts ""
+    puts "Please enter "
   
   def won?
    @board != WIN_COMBINATIONS || @board == WIN_COMBINATIONS
