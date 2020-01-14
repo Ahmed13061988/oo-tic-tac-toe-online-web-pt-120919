@@ -38,7 +38,8 @@ class TicTacToe
   end
   
   def turn_count 
-    number_of_turn
+    number_of_turns == 0 
+    
     
     
  
