@@ -82,7 +82,7 @@ class TicTacToe
   
   def full?
     @board.all? do |a|
-      
+      a != " "
   end 
   
         
