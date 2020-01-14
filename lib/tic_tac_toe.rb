@@ -88,6 +88,7 @@ class TicTacToe
   def draw?
     if @board.all? do |a|
       a != " "
+    end 
       true 
     else 
       false 
