@@ -90,7 +90,8 @@ class TicTacToe
       a != " "
     end 
       true 
-      elsif @board == win_combo
+      elsif WIN_COMBINATIONS  any? do |win_comba|
+        win_combo
       false
     else 
       false 
