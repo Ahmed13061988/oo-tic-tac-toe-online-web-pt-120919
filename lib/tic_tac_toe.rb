@@ -60,7 +60,7 @@ class TicTacToe
     input =get.strip
     index = input_to_index(input)
     if valid_move?(index)
-      
+      token = current_player
     
     
     
