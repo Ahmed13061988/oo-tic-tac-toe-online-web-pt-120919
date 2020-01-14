@@ -56,8 +56,13 @@ class TicTacToe
   end 
   
   def turn 
-    puts "Please enter "
-  
+    puts "Please enter 1-9"
+    input = input_to_index.to_i
+    
+    
+    
+    
+    
   def won?
    @board != WIN_COMBINATIONS || @board == WIN_COMBINATIONS
  WIN_COMBINATIONS
