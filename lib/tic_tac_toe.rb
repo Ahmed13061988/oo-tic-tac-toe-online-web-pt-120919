@@ -29,7 +29,11 @@ class TicTacToe
     @board[index]= token 
   end 
   
-  
+  def position_taken?
+    input_to_index == false 
+    puts input_to_index 
+  else 
+    
     
  
  
