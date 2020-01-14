@@ -43,7 +43,8 @@ class TicTacToe
       if a == "X" || a == "O"
       number_of_count += 1 
     end 
-     number_of_count
+  end 
+    number_of_count
    end 
         
     
