@@ -86,7 +86,8 @@ class TicTacToe
     end 
   end 
   def draw?
-    if @board.full? == true 
+    if @board.all? do |a|
+      a != " "
       true 
     else 
       false 
