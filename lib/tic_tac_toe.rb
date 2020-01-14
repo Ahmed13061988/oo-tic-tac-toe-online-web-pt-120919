@@ -82,9 +82,9 @@ class TicTacToe
   
   def full?
     if @board == position_taken 
-      puts full 
+      true 
     else 
-      turn
+    false
     end 
   end 
   
