@@ -91,9 +91,7 @@ class TicTacToe
     end 
       true 
       elsif   
-      if (@board[win_combo[0]]) == "X" && (@board[win_combo[1]]) == "X" && (@board[win_combo[2]]) == "X"
-      false
-     elsif (@board[win_combo[0]]) == "O" && (@board[win_combo[1]]) == "O" && (@board[win_combo[2]]) == "O"
+      
        false 
     end 
     else 
